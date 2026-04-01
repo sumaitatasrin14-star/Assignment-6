@@ -25,6 +25,7 @@ function App() {
           <Star></Star>
           <Modals modalPromise={modalPromise} ></Modals>
           
+          
       
     </>
   )
