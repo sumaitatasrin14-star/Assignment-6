@@ -1,0 +1,25 @@
+import React from 'react';
+
+const Star = () => {
+    return (
+        <div className="relative min-h-162.5 overflow-hidden">
+        <div className="bg-purple-600 flex px-150 justify-between gap-10 py-20">
+            <div className='text-white'>
+                <h1 className="text-white text-5xl font-bold">50+</h1>
+                <p className="text-white">Active Users</p>
+            </div>
+            
+            <div>
+                <h1 className="text-white text-5xl font-bold">200+</h1>
+                <p className="text-white">Premium Tools</p>
+            </div>
+            <div>
+                <h1 className="text-white ">4.9</h1>
+                <p className="text-white text-center">Rating</p>
+            </div>
+        </div>
+        </div>
+    );
+};
+
+export default Star;
