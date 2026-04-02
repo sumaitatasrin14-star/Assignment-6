@@ -19,17 +19,17 @@
     "id": 3,
     "title": "DeepSeek",
     "description": "Powerful open-source focused AI from China.\nExcellent at coding, math, and cost-effective reasoning.",
-    "price": 0,
+    "price": 50,
     "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/deepseek-logo-icon.png",
     "status": "mostwanted"
   },
   {
     "id": 4,
-    "title": "Gemini",
-    "description": "Google's advanced multimodal AI.\nDeep integration with Google ecosystem and strong reasoning.",
-    "price": 20,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1200px-Google_Gemini_logo.svg.png",
-    "status": "popular"
+    "title": "Qwen",
+    "description": "Alibaba's high-performing Chinese AI series.\nOutstanding in coding, math, and multilingual understanding.",
+    "price": 100,
+    "image": "https://img.alicdn.com/imgextra/i3/O1CN01zaxxvj1p4f0VrY17j_!!6000000005307-54-tps-180-180.apng",
+    "status": "mostwanted"
   },
   {
     "id": 5,
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Kimi",
     "description": "Moonshot AI's fast and intelligent Chinese AI.\nExcellent long-context handling and creative capabilities.",
-    "price": 0,
+    "price": 40,
     "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Kimi-logo-2025.png",
     "status": "mostwanted"
   }

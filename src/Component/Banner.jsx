@@ -23,7 +23,7 @@ const Banner = () => {
 software—all in one place. Start creating faster today.<br/>Explore Products.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4 mx-5">
+          <div className="flex flex-wrap gap-4 pt-4">
             <button className="bg-purple-600 hover:bg-purple-700 transition-all px-8 py-4 rounded-4xl font-semibold text-lg shadow-xl shadow-purple-500/30 flex items-center gap-3 group text-white">
               Explore products
               
