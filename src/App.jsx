@@ -30,12 +30,12 @@ function App() {
           {/* name of each tab group should be unique */}
         <div className="mt-5 tabs tabs-box justify-center bg-transparent">
           <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 font-bold" aria-label="Products" defaultChecked onClick={()=> setActiveTab("modal")} />
-          <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 font-bold" aria-label="Cart" onClick={()=> setActiveTab("cart")} />
+          <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 font-bold" aria-label={`Cart (${carts.length})`} onClick={()=> setActiveTab("cart")} />
   
       </div>
           
           {activeTab === "modal" && <Modals modalPromise={modalPromise} carts={carts} setCarts={setCarts}></Modals>}
-          {activeTab === "cart" && <Cart carts={carts}></Cart>}
+          {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
           
           
       
