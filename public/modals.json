@@ -1,50 +1,92 @@
 [
   {
     "id": 1,
-    "title": "ChatGPT",
-    "description": "The world's most popular AI assistant by OpenAI.\nVersatile for writing, coding, reasoning, and creative tasks.",
-    "price": 20,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png",
-    "status": "popular"
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "pricingType": "monthly",
+    "badge": "Best Seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "✍️"
   },
   {
     "id": 2,
-    "title": "Grok",
-    "description": "Built by xAI with real-time knowledge from X.\nHelpful, witty, and maximally truth-seeking AI.",
-    "price": 30,
-    "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/grok-icon.png",
-    "status": "favourite"
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "pricingType": "one-time",
+    "badge": "Popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "🎨"
   },
   {
     "id": 3,
-    "title": "DeepSeek",
-    "description": "Powerful open-source focused AI from China.\nExcellent at coding, math, and cost-effective reasoning.",
-    "price": 50,
-    "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/deepseek-logo-icon.png",
-    "status": "mostwanted"
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "pricingType": "monthly",
+    "badge": "New",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "📷"
   },
   {
     "id": 4,
-    "title": "Qwen",
-    "description": "Alibaba's high-performing Chinese AI series.\nOutstanding in coding, math, and multilingual understanding.",
-    "price": 100,
-    "image": "https://img.alicdn.com/imgextra/i3/O1CN01zaxxvj1p4f0VrY17j_!!6000000005307-54-tps-180-180.apng",
-    "status": "mostwanted"
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "pricingType": "monthly",
+    "badge": "Popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "⚙️"
   },
   {
     "id": 5,
-    "title": "Claude",
-    "description": "Anthropic's thoughtful and safe AI model.\nBest for long-context writing, analysis, and coding.",
-    "price": 20,
-    "image": "https://static.vecteezy.com/system/resources/thumbnails/067/941/712/small_2x/claude-ai-logo-rounded-hd-free-png.png",
-    "status": "favourite"
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "pricingType": "one-time",
+    "badge": "New",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "📄"
   },
   {
     "id": 6,
-    "title": "Kimi",
-    "description": "Moonshot AI's fast and intelligent Chinese AI.\nExcellent long-context handling and creative capabilities.",
-    "price": 40,
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Kimi-logo-2025.png",
-    "status": "mostwanted"
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "pricingType": "monthly",
+    "badge": "Best Seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "buttonText": "Buy Now",
+    "icon": "📱"
   }
 ]

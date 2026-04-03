@@ -6,7 +6,8 @@ import Modals from './Component/Modals'
 import Star from './Component/Star'
 import Cart from './Component/Cart'
 import { useState } from 'react'
-
+import GetStarted from './Component/get'
+import Pricing from './Component/pricing'
 
 const getModals = async() =>{
   const res =  await fetch("/modals.json")
@@ -36,6 +37,8 @@ function App() {
           
           {activeTab === "modal" && <Modals modalPromise={modalPromise} carts={carts} setCarts={setCarts}></Modals>}
           {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
+      <GetStarted></GetStarted>
+      <Pricing></Pricing>
           
           
       
