@@ -8,6 +8,7 @@ import Cart from './Component/Cart'
 import { useState } from 'react'
 import GetStarted from './Component/get'
 import Pricing from './Component/pricing'
+import Footer from './Component/Footer'
 
 const getModals = async() =>{
   const res =  await fetch("/modals.json")
@@ -39,6 +40,7 @@ function App() {
           {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
       <GetStarted></GetStarted>
       <Pricing></Pricing>
+      <Footer></Footer>
           
           
       
