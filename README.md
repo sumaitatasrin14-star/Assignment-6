@@ -113,6 +113,8 @@ npm run dev
 
 ---
 
-## 📜 License
+## 📜 Project link:
+flourishing-shortbread-a89631.netlify.app
+
 
 
