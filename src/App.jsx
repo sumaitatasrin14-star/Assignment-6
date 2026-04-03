@@ -9,6 +9,7 @@ import { useState } from 'react'
 import GetStarted from './Component/get'
 import Pricing from './Component/pricing'
 import Footer from './Component/Footer'
+import { Routes, Route } from "react-router-dom";
 
 const getModals = async() =>{
   const res =  await fetch("/modals.json")
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <>
-          <NavBar></NavBar>
+          <NavBar carts ={carts}></NavBar>
           <hr className='bg-gray-500'></hr>
           <Banner></Banner>
           <Star></Star>
